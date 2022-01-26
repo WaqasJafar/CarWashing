@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:background="#E806091E"
+        android:textColor="@android:color/white"
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:text="Services"
+        android:textAlignment="center"
+        android:textSize="@android:dimen/notification_large_icon_height"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_marginTop="100dp"
+        android:layout_below="@+id/imageView"
+        >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitStart"
+            android:src="@drawable/fi" />
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Special Laundry"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="To have a discussion about detailing at a car wash, we must first clearly ... must be able to do so within a short, specified time period, usually within 15 minutes. "
+            android:textSize="18dp"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:layout_gravity="center"/>
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitStart"
+            android:adjustViewBounds="true"
+            android:src="@drawable/spl" />
+
+        <Switch
+            android:id="@+id/switch2"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Exterior Wash"
+            android:textStyle="bold"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Search Results Web results Car wash.Car_wash A car wash or auto wash is a facility used to clean the exterior and, in some cases, the interior .it improve discuss these issues on the talk page."
+            android:textSize="18dp"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:layout_gravity="center"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitStart"
+            android:src="@drawable/exw" />
+
+        <Switch
+            android:id="@+id/switch3"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="30dp"
+           android:gravity="center"
+            android:text="Washing" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Washing machines have ways to control how the machine operates. Some of the possible controls are: temperature of the water; time of the wash cycle at Lahore City"
+            android:textSize="18dp"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:layout_gravity="center"/>
+
+
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitStart"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/wx" />
+        <Switch
+            android:id="@+id/switch4"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Waterless Car Wash"
+            android:textStyle="bold"
+            android:textSize="30dp"
+             />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Dry cleaning is set to become a domestic activity with a washing machine that uses 90% less water than a normal laundry cycle and could be "
+            android:textSize="18dp"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:layout_gravity="center"/>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitStart"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/yl" />
+        <TextView
+            android:id="@+id/textview5"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Gallery Section "
+            android:gravity="center"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:background="#f1f1f1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.679" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:hint="Exterior cleaning is the process of cleaning a building's exterior , including the restoration of good hygiene. "
+            android:textSize="18dp"
+            android:textColor="@android:color/black"
+            android:layout_gravity="center"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitStart"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/bl" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitStart"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/lund" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitStart"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/lu" />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitStart"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/cr" />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitStart"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/re" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitStart"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/man" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+          android:layout_marginTop="20dp"
+            android:text="Send Feedback"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center"
+            android:background="#3B5998"
+            android:id="@+id/back"
+            android:textSize="20dp"/>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:scaleType="fitXY"
+      android:src="@drawable/wx"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/imageView"
+       >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginTop="10dp"
+        android:text="@string/about_us"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:id="@+id/textView" />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:text="@string/description_text"
+    android:textAlignment="center"
+    android:id="@+id/textView2"
+    android:gravity="center_horizontal" />
+
+            <LinearLayout
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_marginTop="10dp"
+                    android:text="Mission"
+                    android:textStyle="bold"
+                    android:textSize="25sp"
+                    android:id="@+id/textView3"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="240dp"
+                android:layout_marginTop="0dp"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:textSize="18dp"
+                android:text="The Mission of Speed Shine is to Provide top quality washing and detail Service for all type of car owners. Speed Shine will worker to keep employees satisfied to maintain perfect customer services." />
+        </LinearLayout>
+
+            <TextView
+                android:id="@+id/btnLogin"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="VISION"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="The Quality Car Wash convenience stores are clean, bright, and filled with a variety of products always competitively priced. The exterior express car washes feature the newest technology in car washing guaranteeing a clean, shiny, and dry car every time. "
+                android:textSize="18dp"
+                android:textColor="@android:color/black"
+                android:textAlignment="center"
+                android:layout_gravity="center"/>
+
+            <LinearLayout
+                android:layout_marginTop="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="680dp"
+                android:background="@drawable/mission"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/btnLogin5"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:text="Opening Time"
+                    android:gravity="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="40sp"
+                    android:textStyle="bold"
+                    />
+
+                <Button
+                    android:layout_width="300dp"
+                    android:layout_height="80dp"
+                    android:background="#06A10B"
+                    android:layout_marginTop="25dp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/white"
+                    android:textAlignment="center"
+                    android:textSize="24sp"
+                    android:text="MONDAY"
+                    android:layout_gravity="center_horizontal" />
+
+                <Button
+                    android:layout_width="300dp"
+                    android:layout_height="80dp"
+                    android:background="#FA8223"
+                    android:textStyle="bold"
+                    android:layout_marginTop="20dp"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="24sp"
+                    android:text="TUESDAY"
+                    android:layout_gravity="center_horizontal" />
+
+                <Button
+                    android:layout_width="300dp"
+                    android:layout_height="80dp"
+                    android:background="#FC46AA"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@android:color/white"
+                    android:textSize="24sp"
+                    android:text="WEDNESDAY"
+                    android:layout_gravity="center_horizontal" />
+                <Button
+                    android:layout_width="300dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="20dp"
+                    android:background="#00FFFF"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@android:color/white"
+                    android:textSize="24sp"
+                    android:text="THURSDAY "/>
+                <Button
+                    android:layout_width="300dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="20dp"
+                    android:background="#00FF0F"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@android:color/white"
+                    android:textSize="24sp"
+                    android:text="FRIDAY "/>
+                <Button
+                    android:layout_width="300dp"
+                    android:layout_height="80dp"
+                    android:textColor="@android:color/white"
+                    android:background="#ff4f00"
+                    android:textSize="24sp"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:text="SATURDAY "/>
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:hint="OUR PROGRESS..."
+                android:layout_marginTop="25dp"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:gravity="center_horizontal" />
+
+            <com.hsalf.smileyrating.SmileyRating
+                android:id="@+id/smile_rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
